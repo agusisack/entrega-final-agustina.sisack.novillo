@@ -10,7 +10,7 @@ body{
 
     header{
     background-color: $color-principal;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: $font;
 
         h1{
         background-color: $color-secundario;
@@ -23,7 +23,7 @@ body{
         }
 
         .menu{
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
             text-align: center;
             font-size: 1.5rem;
            
@@ -46,12 +46,11 @@ body{
 main{
     
     margin-top: 2rem;
-    height: 90vh;
-
+    height: 60vh;
     
     .container{
         font-size: 1.2rem;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: $font;
         text-align: center;
         font-weight: 200;
         display: flex;
@@ -67,52 +66,65 @@ main{
     .container-dos{
          display: flex;
          justify-content: center;
-        
+        margin: 0rem 2rem 0rem 2rem;
          img{
             object-fit: cover;
-            padding: 2rem 2rem 3rem 2rem;
+            height: 100%;
+            width: 100%;
+            padding: 3rem 0rem 0rem 0rem;
         }
         
     }
 }
+
 footer{
     background-color: $color-secundario;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: space-around;
+    padding: 1rem;
+    text-align: center;
+    
+    .medios-de-envio{
+        margin: 0rem 0.5rem 0rem 1rem;
 
-    .envios{
-        font-size: 1.5rem;
-        font-weight: 100;
-    }
-
-         ul{
-            li{
-             font-size: 1rem;
-             list-style: none;
-            }
+        .envios{
+            font-size: 1.1rem;
+            font-weight: 200;
+  
         }
 
+        .primero{
+            font-size: 0.9rem;
+            text-align: left;
+            margin: 0rem 0.5rem 0rem 0rem;
+        }
+
+       
+    }    
+    
     .derechos{
         display: flex;
         justify-content: end;
         flex-direction: column;
+        padding: 4rem 0rem 0rem 0rem;
 
         p{
         font-size: 0.8rem;
         text-align: center;
-        
+        padding: 2rem 0rem 0rem 0rem;
         }
     }  
 
     .redes{
-        p{ 
-         font-size: 1.5rem; 
-         font-weight: 100;
+        .nuestras-redes{ 
+         font-size: 1.1rem; 
+         font-weight: 200;
         }
         .logo{
          gap: 2rem;
         }
+
     }
 
       

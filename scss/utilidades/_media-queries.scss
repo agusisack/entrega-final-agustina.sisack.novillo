@@ -4,6 +4,7 @@
 //mq de tablet
 
 @media screen and (min-width: 600px){
+
     main{
         height: 100vh;
 
@@ -22,24 +23,23 @@
 
 
     .main-productos{
-    height: 300vh;
+    height: 420vh;
 
         .sector-uno{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
         align-items: start;
-        height: 100vh;
+        height: 200vh;
         
 
             .mate{
                 display: grid;
             }
+
         }
         .sector-dos{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
         align-items: start;
-        height: 100vh;
+        height: 200vh;
         gap: 3rem;
 
             .sets{
@@ -48,6 +48,58 @@
         }
     }
 
+
+    .main-cuidados{
+        margin: 3rem 0.5rem 3rem 0.5rem;
+        height: 110vh;
+        padding: 1rem 1rem 0rem 1rem;
+        gap: 3rem;
+       
+
+        .uno{
+            padding: 0rem 1.5rem 0rem 1.5rem;
+            height: 50vh;
+
+            .curado{
+                margin: 2.5rem 0rem 2.5rem 0rem; 
+            }
+
+            p{
+                font-size: 1.3rem;
+                margin: 0rem 0.2rem 2rem 0.2rem;
+            }
+
+            .lista-curado{
+                font-weight: 200;
+                
+                li{
+                padding:0rem 0rem 0.5rem 1rem;
+                font-size: 1.2rem;
+                }
+
+            }
+        }
+            
+        .dos{
+            padding: 0rem 1.5rem 0rem 1.5rem;
+            height: 50vh;
+  
+            .cuidados{
+                margin: 2.5rem 0rem 2.5rem 0rem; 
+            }
+
+            .lista-cuidados{
+                .li-cuidados{
+                text-align: justify;
+                padding: 0rem 0rem 1rem 0.5rem;
+                font-size: 1.2rem;
+                }
+            }
+
+        }
+
+    }
+    
 
     .main-quienes-somos{
         height: 150vh;
@@ -66,6 +118,9 @@
                 border-radius: 10px;   
                 }
             }
+            .texto-unoo{
+                font-size: 1.3rem;
+            }
         }
       
         .como-se-creo{
@@ -83,16 +138,20 @@
                 border-radius: 10px;
                 }
             }
-
+            .texto-doss{
+                font-size: 1.3rem;
+            }
         }
     }
 
+
+
     .main-informacion{
-        height: 50vh;
+        height: 70vh;
 
         .todo{
             display: grid;
-           grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
             height: 70vh;
         }
     }
@@ -128,6 +187,8 @@
             }
         }    
     }
+
+    
     .main-productos{
         height: 150vh;
 
@@ -158,53 +219,73 @@
          }
     
     }
+
+
     .main-cuidados{
-
-        height: 50vh;
-
-        .cuidados{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 3rem;
-            
-            .curado{
-                ol{
-                    li{
-                        padding-left: 5rem;
-                    }
-                }
-            }
-            .curado-dos{
-                ul{
-                    li{
-                        padding-left: 5rem;
-                    }
-                }
-            }
-        }
-       
-
-    }
-
-    .main-cuidados .cuidados .curado ol li{
-       padding-left: 5rem;
-
-    }
-    .main-cuidados .cuidados .curado-dos ul li{
-       padding-left: 5rem;
-    }
-    .main-informacion{
-        height: 50vh;
+        height: 70vh;
         display: grid;
-        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        
+        .dos{
+            
+            .lista-cuidados{
+                .li-cuidados{
+                    padding: 0rem 0rem 1rem 0.5rem;
+                }
+            }
+        }                    
     }
-    
+
+
+
+
     .main-quienes-somos{
         height: 90vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
 
     }
+
+    .main-informacion{
+        height: 60vh;
+        display: grid;
+        justify-content: center;
+
+        .todo{
+            display: flex;
+
+            .formulario{
+                align-items: start;
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+
+                    fieldset{
+                        display: flex;
+                        flex-direction: column;
+
+                    }
+
+                }
+
+            }
+        }
+
+        .pago-datos{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+            padding: 0rem 5rem 10rem 5rem;
+            gap: 3rem;
+
+        }
+    }
+
+    
+    
+  
+ 
     
     
 }   

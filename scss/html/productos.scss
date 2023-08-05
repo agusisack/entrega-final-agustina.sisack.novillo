@@ -4,35 +4,34 @@
 
 
 .main-productos{
-    height: 400vh;
+    height: 380vh;
     display: grid;
     
 
     .titulo-uno{
         text-align: center;
-      
+        
     }
     .sector-uno{
-        height: 150vh;
+        height: 160vh;
         margin-bottom: 2rem;
+        
         
         .mate{
             display: grid;
 
             .imagen{
-                display: grid;
-                justify-items: center;
-                align-items: center;
-                transition: 0.5;
+               @include grid;
 
                 img{
                     object-fit: cover;
                     border-radius: 10px;
-                    transition: 0.5;
+                    transition: 0.4s;
                 }
                 img:hover{
-                    transition: 0.5s;
+                    transition: 0.4s;
                     transform: scale(1.1);
+                    box-shadow: 7px 7px 7px $color-principal;
                 }
             }
         }
@@ -42,11 +41,7 @@
               @extend %boton;  
             }
             p{
-                margin: 1rem 3rem 1rem 3rem;
-                justify-self: center;
-                align-self: center; 
-                font-weight: 600;
-                font-size: 1.5rem; 
+              @extend %estilos-p;
             }
             
         }
@@ -58,7 +53,7 @@
     }
 
     .sector-dos{
-        height: 150vh;
+        height: 160vh;
 
         .sets{
             display: grid;
@@ -66,33 +61,31 @@
             flex-direction: column;
 
             .imagen{
-                display: grid;
-                justify-items: center;
-                align-items: center;
+
+                @include grid;
                
 
                 img{
                    object-fit: cover; 
                    border-radius: 10px;
+                   transition: 0.4s;
                 }
                 img:hover{
-                    transition: 0.5s;
+                    transition: 0.4s;
                     transform: scale(1.1);
+                    box-shadow: 7px 7px 7px $color-principal;
                 }
             }
         } 
         
         div{
             .boton{
-                @extend %boton;  
+                @extend %boton; 
               }
+            
               
             p{
-                margin: 1rem 3rem 1rem 3rem;
-                justify-self: center;
-                align-self: center; 
-                font-weight: 600;
-                font-size: 1.5rem; 
+               @extend %estilos-p;
             }
         }
     }

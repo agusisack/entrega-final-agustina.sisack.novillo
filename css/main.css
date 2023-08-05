@@ -7,6 +7,13 @@
   justify-self: center;
   align-self: center; }
 
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
+
 .main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
   background-color: #e0d1d5;
   font-weight: 600;
@@ -15,16 +22,55 @@
   margin: 0rem 0.5rem 2.5rem 0.5rem;
   justify-self: center;
   align-self: center; }
+
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
 
 .main-cuidados {
-  margin: 3rem 1rem 2rem 1rem;
-  height: 70vh; }
-  .main-cuidados h2 {
-    text-align: center;
-    margin: 2rem 0rem 2rem 0rem; }
-  .main-cuidados ol li {
-    text-align: justify;
-    padding: 0rem 0rem 0rem 1rem; }
+  margin: 3rem 0.5rem 1rem 0.5rem;
+  height: 110vh;
+  padding: 1rem 1rem 0rem 1rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+  .main-cuidados .uno {
+    padding: 0rem 1.2rem 0rem 1.2rem;
+    height: 50vh; }
+    .main-cuidados .uno .curado {
+      text-align: center;
+      margin: 1.5rem 0rem 1.5rem 0rem;
+      font-size: 1.7rem;
+      font-weight: 600; }
+    .main-cuidados .uno p {
+      text-align: center;
+      font-weight: 300;
+      font-size: 1.2rem;
+      margin: 0rem 0.2rem 1rem 0.2rem;
+      padding: 0.5rem 0rem 0.5rem 0rem; }
+    .main-cuidados .uno .lista-curado {
+      list-style: none; }
+      .main-cuidados .uno .lista-curado li {
+        text-align: justify;
+        padding: 0.5rem 0rem 0.3rem 0.5rem;
+        font-size: 1.1rem; }
+  .main-cuidados .dos {
+    padding: 0rem 1.5rem 0rem 1.2rem;
+    height: 50vh; }
+    .main-cuidados .dos .cuidados {
+      text-align: center;
+      margin: 1.5rem 0rem 1.5rem 0rem;
+      font-size: 1.7rem;
+      font-weight: 600;
+      padding: 0.5rem 0rem 2rem 0rem; }
+    .main-cuidados .dos .lista-cuidados .li-cuidados {
+      text-align: justify;
+      padding: 0rem 0rem 0.5rem 1rem;
+      font-size: 1.1rem; }
 
 .main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
   background-color: #e0d1d5;
@@ -34,25 +80,43 @@
   margin: 0rem 0.5rem 2.5rem 0.5rem;
   justify-self: center;
   align-self: center; }
+
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
 
 .main-informacion {
   margin: 2rem 0rem 5rem 3rem;
-  height: 70vh; }
-  .main-informacion h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: justify;
-    margin: 2rem 0rem 1rem 1rem; }
-  .main-informacion form fieldset {
+  height: 105vh; }
+  .main-informacion .todo .formulario form fieldset {
     display: grid;
-    gap: 1rem; }
-    .main-informacion form fieldset legend {
-      text-align: justify;
+    gap: 1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    padding: 0rem 0rem 1.5rem 0rem; }
+    .main-informacion .todo .formulario form fieldset legend {
+      text-align: center;
       margin: 2rem 1rem 1rem 0rem;
-      font-weight: 400;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+      font-weight: 500;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+      font-size: 1.8rem; }
+    .main-informacion .todo .formulario form fieldset label {
+      display: block;
+      font-size: 1.1rem; }
+  .main-informacion .pago-datos h2 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    text-align: justify;
+    text-align: center;
+    margin: 2rem 0rem 1rem 1rem; }
   .main-informacion ul li {
     text-align: justify;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    list-style: none; }
 
 .main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
   background-color: #e0d1d5;
@@ -62,6 +126,13 @@
   margin: 0rem 0.5rem 2.5rem 0.5rem;
   justify-self: center;
   align-self: center; }
+
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
 
 @media screen and (min-width: 600px) {
   main {
@@ -73,22 +144,47 @@
     main .container-dos {
       display: grid; }
   .main-productos {
-    height: 300vh; }
+    height: 420vh; }
     .main-productos .sector-uno {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       align-items: start;
-      height: 100vh; }
+      height: 200vh; }
       .main-productos .sector-uno .mate {
         display: grid; }
     .main-productos .sector-dos {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       align-items: start;
-      height: 100vh;
+      height: 200vh;
       gap: 3rem; }
       .main-productos .sector-dos .sets {
         display: grid; }
+  .main-cuidados {
+    margin: 3rem 0.5rem 3rem 0.5rem;
+    height: 110vh;
+    padding: 1rem 1rem 0rem 1rem;
+    gap: 3rem; }
+    .main-cuidados .uno {
+      padding: 0rem 1.5rem 0rem 1.5rem;
+      height: 50vh; }
+      .main-cuidados .uno .curado {
+        margin: 2.5rem 0rem 2.5rem 0rem; }
+      .main-cuidados .uno p {
+        font-size: 1.3rem;
+        margin: 0rem 0.2rem 2rem 0.2rem; }
+      .main-cuidados .uno .lista-curado {
+        font-weight: 200; }
+        .main-cuidados .uno .lista-curado li {
+          padding: 0rem 0rem 0.5rem 1rem;
+          font-size: 1.2rem; }
+    .main-cuidados .dos {
+      padding: 0rem 1.5rem 0rem 1.5rem;
+      height: 50vh; }
+      .main-cuidados .dos .cuidados {
+        margin: 2.5rem 0rem 2.5rem 0rem; }
+      .main-cuidados .dos .lista-cuidados .li-cuidados {
+        text-align: justify;
+        padding: 0rem 0rem 1rem 0.5rem;
+        font-size: 1.2rem; }
   .main-quienes-somos {
     height: 150vh; }
     .main-quienes-somos .quien-soy {
@@ -101,6 +197,8 @@
           align-items: center;
           object-fit: cover;
           border-radius: 10px; }
+      .main-quienes-somos .quien-soy .texto-unoo {
+        font-size: 1.3rem; }
     .main-quienes-somos .como-se-creo {
       height: 70vh;
       display: grid; }
@@ -111,8 +209,10 @@
           align-items: center;
           object-fit: cover;
           border-radius: 10px; }
+      .main-quienes-somos .como-se-creo .texto-doss {
+        font-size: 1.3rem; }
   .main-informacion {
-    height: 50vh; }
+    height: 70vh; }
     .main-informacion .todo {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -151,33 +251,41 @@
     .main-productos .footer {
       height: 50vh; }
   .main-cuidados {
-    height: 50vh; }
-    .main-cuidados .cuidados {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem; }
-      .main-cuidados .cuidados .curado ol li {
-        padding-left: 5rem; }
-      .main-cuidados .cuidados .curado-dos ul li {
-        padding-left: 5rem; }
-  .main-cuidados .cuidados .curado ol li {
-    padding-left: 5rem; }
-  .main-cuidados .cuidados .curado-dos ul li {
-    padding-left: 5rem; }
-  .main-informacion {
-    height: 50vh;
+    height: 70vh;
     display: grid;
-    justify-content: center; }
+    grid-template-columns: 1fr 1fr; }
+    .main-cuidados .dos .lista-cuidados .li-cuidados {
+      padding: 0rem 0rem 1rem 0.5rem; }
   .main-quienes-somos {
     height: 90vh;
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+  .main-informacion {
+    height: 60vh;
+    display: grid;
+    justify-content: center; }
+    .main-informacion .todo {
+      display: flex; }
+      .main-informacion .todo .formulario {
+        align-items: start; }
+        .main-informacion .todo .formulario form {
+          display: flex;
+          flex-direction: column; }
+          .main-informacion .todo .formulario form fieldset {
+            display: flex;
+            flex-direction: column; }
+    .main-informacion .pago-datos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+      padding: 0rem 5rem 10rem 5rem;
+      gap: 3rem; } }
 
 body {
   display: block; }
   body header {
     background-color: #e0d1d5;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
     body header h1 {
       background-color: #b9a7a7;
       font-weight: 100;
@@ -187,7 +295,6 @@ body {
       padding-top: 1rem;
       margin-top: auto; }
     body header .menu {
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       text-align: center;
       font-size: 1.5rem; }
       body header .menu .submenu .logo {
@@ -198,10 +305,10 @@ body {
 
 main {
   margin-top: 2rem;
-  height: 90vh; }
+  height: 60vh; }
   main .container {
     font-size: 1.2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     text-align: center;
     font-weight: 200;
     display: flex;
@@ -211,32 +318,42 @@ main {
       display: none; }
   main .container-dos {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin: 0rem 2rem 0rem 2rem; }
     main .container-dos img {
       object-fit: cover;
-      padding: 2rem 2rem 3rem 2rem; }
+      height: 100%;
+      width: 100%;
+      padding: 3rem 0rem 0rem 0rem; }
 
 footer {
   background-color: #b9a7a7;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
-  justify-content: space-around; }
-  footer .envios {
-    font-size: 1.5rem;
-    font-weight: 100; }
-  footer ul li {
-    font-size: 1rem;
-    list-style: none; }
+  justify-content: space-around;
+  padding: 1rem;
+  text-align: center; }
+  footer .medios-de-envio {
+    margin: 0rem 0.5rem 0rem 1rem; }
+    footer .medios-de-envio .envios {
+      font-size: 1.1rem;
+      font-weight: 200; }
+    footer .medios-de-envio .primero {
+      font-size: 0.9rem;
+      text-align: left;
+      margin: 0rem 0.5rem 0rem 0rem; }
   footer .derechos {
     display: flex;
     justify-content: end;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 4rem 0rem 0rem 0rem; }
     footer .derechos p {
       font-size: 0.8rem;
-      text-align: center; }
-  footer .redes p {
-    font-size: 1.5rem;
-    font-weight: 100; }
+      text-align: center;
+      padding: 2rem 0rem 0rem 0rem; }
+  footer .redes .nuestras-redes {
+    font-size: 1.1rem;
+    font-weight: 200; }
   footer .redes .logo {
     gap: 2rem; }
 
@@ -249,38 +366,39 @@ footer {
   justify-self: center;
   align-self: center; }
 
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
+
 .main-productos {
-  height: 400vh;
+  height: 380vh;
   display: grid; }
   .main-productos .titulo-uno {
     text-align: center; }
   .main-productos .sector-uno {
-    height: 150vh;
+    height: 160vh;
     margin-bottom: 2rem; }
     .main-productos .sector-uno .mate {
       display: grid; }
       .main-productos .sector-uno .mate .imagen {
         display: grid;
         justify-items: center;
-        align-items: center;
-        transition: 0.5; }
+        align-items: center; }
         .main-productos .sector-uno .mate .imagen img {
           object-fit: cover;
           border-radius: 10px;
-          transition: 0.5; }
+          transition: 0.4s; }
         .main-productos .sector-uno .mate .imagen img:hover {
-          transition: 0.5s;
-          transform: scale(1.1); }
-    .main-productos .sector-uno div p {
-      margin: 1rem 3rem 1rem 3rem;
-      justify-self: center;
-      align-self: center;
-      font-weight: 600;
-      font-size: 1.5rem; }
+          transition: 0.4s;
+          transform: scale(1.1);
+          box-shadow: 7px 7px 7px #e0d1d5; }
   .main-productos .titulo-dos {
     text-align: center; }
   .main-productos .sector-dos {
-    height: 150vh; }
+    height: 160vh; }
     .main-productos .sector-dos .sets {
       display: grid;
       justify-items: center;
@@ -291,16 +409,12 @@ footer {
         align-items: center; }
         .main-productos .sector-dos .sets .imagen img {
           object-fit: cover;
-          border-radius: 10px; }
+          border-radius: 10px;
+          transition: 0.4s; }
         .main-productos .sector-dos .sets .imagen img:hover {
-          transition: 0.5s;
-          transform: scale(1.1); }
-    .main-productos .sector-dos div p {
-      margin: 1rem 3rem 1rem 3rem;
-      justify-self: center;
-      align-self: center;
-      font-weight: 600;
-      font-size: 1.5rem; }
+          transition: 0.4s;
+          transform: scale(1.1);
+          box-shadow: 7px 7px 7px #e0d1d5; }
 
 .main-productos .sector-uno div .boton, .main-productos .sector-dos div .boton {
   background-color: #e0d1d5;
@@ -311,9 +425,16 @@ footer {
   justify-self: center;
   align-self: center; }
 
+.main-productos .sector-uno div p, .main-productos .sector-dos div p {
+  margin: 1rem 3rem 1rem 3rem;
+  justify-self: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: 1.5rem; }
+
 .main-quienes-somos {
   height: 100vh;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
   .main-quienes-somos .quien-soy {
     height: 40vh;
     text-align: center;
@@ -323,7 +444,7 @@ footer {
       font-size: 200;
       text-align: center; }
     .main-quienes-somos .quien-soy .texto-unoo {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       margin: 0rem 3rem 0rem 3rem; }
   .main-quienes-somos .alpargata {
     display: none; }
@@ -335,7 +456,7 @@ footer {
       font-size: 200;
       text-align: center; }
     .main-quienes-somos .como-se-creo .texto-doss {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       margin: 0rem 2rem 0rem 2rem; }
   .main-quienes-somos .rosa {
     display: none; }
@@ -350,22 +471,47 @@ footer {
     main .container-dos {
       display: grid; }
   .main-productos {
-    height: 300vh; }
+    height: 420vh; }
     .main-productos .sector-uno {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       align-items: start;
-      height: 100vh; }
+      height: 200vh; }
       .main-productos .sector-uno .mate {
         display: grid; }
     .main-productos .sector-dos {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
       align-items: start;
-      height: 100vh;
+      height: 200vh;
       gap: 3rem; }
       .main-productos .sector-dos .sets {
         display: grid; }
+  .main-cuidados {
+    margin: 3rem 0.5rem 3rem 0.5rem;
+    height: 110vh;
+    padding: 1rem 1rem 0rem 1rem;
+    gap: 3rem; }
+    .main-cuidados .uno {
+      padding: 0rem 1.5rem 0rem 1.5rem;
+      height: 50vh; }
+      .main-cuidados .uno .curado {
+        margin: 2.5rem 0rem 2.5rem 0rem; }
+      .main-cuidados .uno p {
+        font-size: 1.3rem;
+        margin: 0rem 0.2rem 2rem 0.2rem; }
+      .main-cuidados .uno .lista-curado {
+        font-weight: 200; }
+        .main-cuidados .uno .lista-curado li {
+          padding: 0rem 0rem 0.5rem 1rem;
+          font-size: 1.2rem; }
+    .main-cuidados .dos {
+      padding: 0rem 1.5rem 0rem 1.5rem;
+      height: 50vh; }
+      .main-cuidados .dos .cuidados {
+        margin: 2.5rem 0rem 2.5rem 0rem; }
+      .main-cuidados .dos .lista-cuidados .li-cuidados {
+        text-align: justify;
+        padding: 0rem 0rem 1rem 0.5rem;
+        font-size: 1.2rem; }
   .main-quienes-somos {
     height: 150vh; }
     .main-quienes-somos .quien-soy {
@@ -378,6 +524,8 @@ footer {
           align-items: center;
           object-fit: cover;
           border-radius: 10px; }
+      .main-quienes-somos .quien-soy .texto-unoo {
+        font-size: 1.3rem; }
     .main-quienes-somos .como-se-creo {
       height: 70vh;
       display: grid; }
@@ -388,8 +536,10 @@ footer {
           align-items: center;
           object-fit: cover;
           border-radius: 10px; }
+      .main-quienes-somos .como-se-creo .texto-doss {
+        font-size: 1.3rem; }
   .main-informacion {
-    height: 50vh; }
+    height: 70vh; }
     .main-informacion .todo {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -428,24 +578,32 @@ footer {
     .main-productos .footer {
       height: 50vh; }
   .main-cuidados {
-    height: 50vh; }
-    .main-cuidados .cuidados {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem; }
-      .main-cuidados .cuidados .curado ol li {
-        padding-left: 5rem; }
-      .main-cuidados .cuidados .curado-dos ul li {
-        padding-left: 5rem; }
-  .main-cuidados .cuidados .curado ol li {
-    padding-left: 5rem; }
-  .main-cuidados .cuidados .curado-dos ul li {
-    padding-left: 5rem; }
-  .main-informacion {
-    height: 50vh;
+    height: 70vh;
     display: grid;
-    justify-content: center; }
+    grid-template-columns: 1fr 1fr; }
+    .main-cuidados .dos .lista-cuidados .li-cuidados {
+      padding: 0rem 0rem 1rem 0.5rem; }
   .main-quienes-somos {
     height: 90vh;
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+  .main-informacion {
+    height: 60vh;
+    display: grid;
+    justify-content: center; }
+    .main-informacion .todo {
+      display: flex; }
+      .main-informacion .todo .formulario {
+        align-items: start; }
+        .main-informacion .todo .formulario form {
+          display: flex;
+          flex-direction: column; }
+          .main-informacion .todo .formulario form fieldset {
+            display: flex;
+            flex-direction: column; }
+    .main-informacion .pago-datos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+      padding: 0rem 5rem 10rem 5rem;
+      gap: 3rem; } }

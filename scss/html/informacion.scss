@@ -6,37 +6,60 @@
 
 .main-informacion{
     margin: 2rem 0rem 5rem 3rem;
-    height: 70vh;
+    height: 105vh;
 
-    h2{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-         text-align: justify;
-        margin: 2rem 0rem 1rem 1rem; 
-    }
-    form{
-        fieldset{
-            display: grid;
-            gap: 1rem;
+    .todo{
 
-            legend{
+        .formulario{
+            form{
+                fieldset{
+                    display: grid;
+                    gap: 1rem;
+                    font-family: $font;
+                    text-align: center;
+                    padding: 0rem 0rem 1.5rem 0rem;
 
-                text-align: justify;
+                legend{
+                text-align: center;
                 margin: 2rem 1rem 1rem 0rem;
-                font-weight: 400;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+                font-weight: 500;
+                font-family: $font;
+                font-size: 1.8rem;
+                }
+                label{
+                    display: block;
+                    font-size: 1.1rem;
+                }
+                }
             }
-
         }
     }
 
-    
+
+    .pago-datos{
+        h2{
+            font-family: $font;
+            text-align: justify;
+            text-align: center;
+            margin: 2rem 0rem 1rem 1rem; 
+        }
+    }
+
     ul{
     
         li{
             text-align: justify;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: $font;
+            font-size: 1.1rem;
+            text-align: center;
+            list-style: none;
         }
     }
+
+
+
+
+
 }
 
 
